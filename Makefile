@@ -25,7 +25,7 @@
 CXX = $(shell wx-config --cxx)
 
 CFLAGS=-c -O2 -Wall `wx-config --cxxflags`
-LDFLAGS=`wx-config --libs` -lwiringPi
+LDFLAGS=`wx-config --libs` 
 
 ##----------------------------------------------------------------------------##
 
